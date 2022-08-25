@@ -1,2 +1,2 @@
 # All-algorithms-of-Cyber-Secuirty
-This repo contains all the CS encryption programs 
+This reposiyoty contains all the Computer security cipher programs 
