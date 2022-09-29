@@ -25,14 +25,18 @@
 public class Ceaser{
 
     public static void main(String[] args) {
-        String plainText = "Dqdv";
+        String plainText = "Anas";
+        
         int shift = 3;
         String cipherText = "";
 
         for(int i = 0; i < plainText.length(); i++){
             char c = plainText.charAt(i);
-            cipherText += (char) (c - shift%26);
+            cipherText += (char) (c + shift%26);
         }
+        System.out.print("PlainText: ");
+        System.out.println(plainText);
+        System.out.print("CipherText: ");
         System.out.println(cipherText);
 
     }
